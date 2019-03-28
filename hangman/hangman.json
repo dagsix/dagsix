@@ -1,0 +1,738 @@
+{
+    "hangmanwords": [
+        {
+            "gameword": "the godfather",
+            "gcategory": "movies",
+            "wordplayed": "0"
+
+    },
+        {
+            "gameword": "the dark knight",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "the shawshank redemption",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "pulp fiction",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "goodfellas",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "raiders of the lost ark",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "back to the future",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "blade runner",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "apocalypse now",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "alien",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "the lord of the rings the two towers",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "the matrix",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "the good the bad and the ugly",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "casablanca",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "taxi driver",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "the usual suspects",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "guardians of the galaxy",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "the shining",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "saving private ryan",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "eternal sunshine of the spotless mind",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "gladiator",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "citizen kane",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "the silence of the lambs",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "trainspotting",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "lawrence of arabia",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "reservoir dogs",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "whiplash",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "american beauty",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "donnie darko",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "forrest gump",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "ghostbusters",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "fargo",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "spirited away",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "toy story",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "rocky",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "predator",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "no country for old men",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "the exorcist",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "the terminator",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "princess bride",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "lost in translation",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "good will hunting",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "arrival",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "titanic",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "stand by me",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "star wars",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "halloween",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "the godfather",
+            "gcategory": "movies",
+            "wordplayed": "0"
+    },
+
+        {
+            "gameword": "marilyn monroe",
+            "gcategory": "history",
+            "wordplayed": "0"
+
+    },
+        {
+            "gameword": "abraham lincoln",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "mother teresa",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "martin luther king",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "nelson mandela",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "winston churchill",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "bill gates",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "edgar allan poe",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "muhammad ali",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "margaret thatcher",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "christopher columbus",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "charles darwin",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "elvis presley",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "albert einstein",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "paul mccartney",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "john f kennedy",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "leonardo da vinci",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "vincent van gogh",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "thomas edison",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "rosa parks",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "ludwig beethoven",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "oprah winfrey",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "george orwell",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "walt disney",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "malcolm x",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "john lennon",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "ernest hemingway",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "michael jordon",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "pablo picasso",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "oscar wilde",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "plato",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "alfred hitchcock",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "cleopatra",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "audrey hepburn",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "j r r tolkien",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "stephen hawking",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "marie curie",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "jesus christ",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "isaac newton",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "aristotle",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "muhammad",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "alexander the great",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "william shakespeare",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "mahatma gandhi",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "julius caesar",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "napoleon bonaparte",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "wolfgang amadeus mozart",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "genghis khan",
+            "gcategory": "history",
+            "wordplayed": "0"
+    }, {
+            "gameword": "benjamin franklin",
+            "gcategory": "history",
+            "wordplayed": "0"
+    }, {
+            "gameword": "michelangelo",
+            "gcategory": "history",
+            "wordplayed": "0"
+    }, {
+            "gameword": "archimedes",
+            "gcategory": "history",
+            "wordplayed": "0"
+    }, {
+            "gameword": "alexander graham bell",
+            "gcategory": "history",
+            "wordplayed": "0"
+    }, {
+            "gameword": "nicolaus copernicus",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "spartacus",
+            "gcategory": "history",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "the beatles",
+            "gcategory": "bands",
+            "wordplayed": "0"
+
+    },
+        {
+            "gameword": "the rolling stones",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "the kinks",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "the clash",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "talking heads",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "r e m",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "nine inch nails",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "rush",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "tom petty",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "led zeppelin",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "black sabbath",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "creedence clearwater revival",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "beastie boys",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "radiohead",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "the police",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "metallica",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "the sex pistols",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "queen",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "public enemy",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "the doors",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "simon and garfunkel",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "david bowie",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "johnny cash",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "nirvana",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "the who",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "prince",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "the ramones",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "bob marley",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "jimi hendrix",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "van halen",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "pearl jam",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "iron maiden",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "the cure",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "soundgarden",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "rage against the machine",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "depeche mode",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "the smiths",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "pixies",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "tool",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "system of a down",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "joy division",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "the cult",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "faith no more",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "janes addiction",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    },
+        {
+            "gameword": "tom waits",
+            "gcategory": "bands",
+            "wordplayed": "0"
+    }
+  ]
+}

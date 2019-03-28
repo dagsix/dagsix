@@ -1,0 +1,624 @@
+/*
+##########################################################
+Coding by Dave Guzda
+Game Assignment - Hangman!
+>>> make swanky code! <<<
+CSS File
+###########################################################
+*/
+
+
+@media (max-width:991px) {
+    /*
+##########################################################################################################
+    */
+
+    html,
+    body {
+        padding: 0px;
+        width: 95%;
+        margin: 0 auto 0 auto;
+        background: url('../img/bg.jpg') no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: 'Goudy Bookletter 1911', serif;
+        size: large;
+        /* was xx */
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    #container {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto;
+    }
+
+    nav {
+        grid-column: 1/13;
+    }
+
+
+    img nav {
+        width: 100%;
+        margin: 10% auto 0 auto;
+        text-align: center;
+    }
+
+    /* main game display div */
+    #mainscreen {
+        border: 2px dashed #000;
+        grid-column: 1/13;
+    }
+
+    main {
+        grid-column: 1/13;
+        visibility: hidden;
+        text-align: center;
+        margin: 0 auto 0 auto;
+        box-sizing: border-box;
+        /* white background opacity */
+        opacity: 0.7;
+
+    }
+
+    header {
+        grid-column: 1/13;
+    }
+
+    footer {
+
+        grid-column: 1/13;
+        display: block;
+    }
+
+    ul,
+    li {
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+    }
+
+    p {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+
+
+    #closecat,
+    #closerules {
+        width: 30px;
+
+    }
+
+    #flowerpower {
+        text-align: center;
+
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    #victory {
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+    }
+
+    /* game screen divs */
+    #toprow {
+        grid-column: 1/13;
+        display: block;
+        margin: 0;
+        padding: 0;
+        /* opacity: 0.6; */
+        box-sizing: border-box;
+        background: rgba(255, 255, 255, 0.7);
+    }
+
+    #countdown {
+        margin: 0 auto 0 auto;
+        min-width: 400px;
+        width: 50%;
+    }
+
+    #bottomrow {
+        grid-column: 1/13;
+        min-height: auto;
+        display: grid;
+        background: rgba(255, 255, 255, 0.7);
+    }
+
+    #guessing {
+        font-size: 250%;
+        grid-column: 1/13;
+    }
+
+    #guessbox {
+        display: block;
+        background: rgba(255, 255, 255, 0.7);
+        grid-column: 1/13;
+        min-width: 400px;
+        text-align: center;
+        /* opacity: inherit; */
+    }
+
+    #timer {
+        font-size: 150%;
+    }
+
+    #chickendinner {
+        visibility: hidden;
+        grid-column: 1/13;
+    }
+
+    #contbtn {
+        visibility: hidden;
+    }
+
+
+    /* start it "grayed out" */
+    #rndbtn {
+        width: 24px;
+    }
+
+    #musicrow {
+        display: block;
+        padding: 10px;
+        border: 2px #000 dashed;
+        min-height: 70px;
+        min-width: 400px;
+        grid-column: 1/13;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.7);
+        /* 100px*/
+    }
+
+    #mplayer {
+        width: 27px;
+        height: 27px;
+    }
+
+    #audioinfo {
+        font-size: large;
+    }
+
+    #selectletter {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        /* display: block;*/
+        text-align: center;
+        background: #fff;
+        grid-column: 1/13;
+        box-sizing: border-box;
+    }
+
+    #incorrect {
+        float: left;
+        display: block;
+        grid-column: 1/13;
+        /* opacity: 0.6; */
+        background: #fff;
+    }
+
+    .letterformat {
+        padding: 3px;
+        margin: 3px;
+        border: 4px solid #000;
+        /* opacity: 0.6; */
+        background: #000;
+        width: 25px;
+    }
+
+    .letterformat:hover {
+        border: 4px solid #cb5d2c;
+        opacity: 1.0;
+    }
+
+    /* button */
+    #playagain {
+        visibility: hidden;
+        border: 2px solid #000;
+        color: #000;
+    }
+
+    .hang {
+        display: block;
+        font-weight: bold;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+
+
+    /* rules of the game div box */
+    #rules {
+        margin-top: 10px;
+        visibility: hidden;
+        background: rgba(255, 255, 255, 0.7);
+        border: 2px #000 dotted;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        grid-column: 1/13;
+        box-sizing: border-box;
+    }
+
+    /* categories box div */
+    #categories {
+        margin-top: 10px;
+        visibility: hidden;
+        background: rgba(255, 255, 255, 0.7);
+        border: 2px #000 dotted;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        grid-column: 1/13;
+        box-sizing: border-box;
+        min-height: 280px;
+    }
+
+
+    .mybutton {
+        font-size: large;
+        font-weight: bold;
+        font-family: 'Goudy Bookletter 1911', serif;
+        letter-spacing: 5px;
+        padding: 5px 10px 5px 10px;
+        background: #fff;
+        color: #000;
+        border: 1px solid #000;
+        margin: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 1.0;
+    }
+
+    .mybutton:hover {
+        background: #ccc;
+        opacity: 0.5;
+    }
+
+    /* music button hover */
+
+    .mbtn {
+        opacity: 1.0;
+        width: 25px;
+    }
+
+    .mbtn:hover {
+        opacity: 0.5;
+    }
+
+    /* for div titles */
+    .rulest {
+        font-size: large;
+        /* was xx */
+        font-weight: bold;
+        letter-spacing: 5px;
+        padding: 5px;
+        color: #000;
+    }
+
+    #flowerpower {
+        text-align: center;
+        grid-column: 1/13;
+
+    }
+
+    #gallows {
+        width: 200px;
+    }
+
+    #closerules {
+        display: block;
+        margin: 10px auto 10px auto;
+
+    }
+
+}
+
+/*
+####################################################################################################################################
+Large devices (desktops, 992px  
+*/
+@media (min-width:992px) {
+
+    html,
+    body {
+        padding: 0px;
+        margin: 0px;
+        background: url('../img/bg.jpg') no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: 'Goudy Bookletter 1911', serif;
+        size: xx-large width: 95%;
+    }
+
+
+    img nav {
+        width: 100%;
+        margin: 10% auto 0 auto;
+        text-align: center;
+    }
+
+    /* main game display div */
+    #mainscreen {
+        border: 2px dashed #000;
+    }
+
+    main {
+        width: 90%;
+        visibility: hidden;
+        text-align: center;
+        margin: 0 auto 0 auto;
+        box-sizing: border-box;
+        /* white background opacity */
+        opacity: 0.7;
+
+    }
+
+    header {}
+
+    footer {
+
+        width: 100%;
+        display: block;
+    }
+
+    ul,
+    li {
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+    }
+
+    p {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+
+
+    #closecat,
+    #closerules {
+        width: 30px;
+
+    }
+
+
+    #chickendinner {
+        width: 200px;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    #victory {
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+    }
+
+    /* game screen divs */
+    #toprow {
+        width: 100%;
+        display: block;
+        margin: 0;
+        padding: 0;
+        /* opacity: 0.6; */
+        box-sizing: border-box;
+    }
+
+    #countdown {
+        display: block;
+        float: left;
+        width: 50%;
+    }
+
+    #bottomrow {
+        background: #fff;
+        margin: 0;
+        padding: 0;
+        min-height: 300px;
+    }
+
+    #guessing {
+        font-size: 250%;
+    }
+
+    #guessbox {
+        float: left;
+        display: block;
+        background: #fff;
+        width: 100%;
+        /* opacity: inherit; */
+        box-sizing: border-box;
+    }
+
+    #timer {
+        font-size: 200%;
+    }
+
+    #chickendinner {
+        visibility: hidden;
+    }
+
+    #contbtn {
+        visibility: hidden;
+    }
+
+
+    /* start it "grayed out" */
+    #rndbtn {
+        width: 24px;
+    }
+
+    #musicrow {
+        display: block;
+        padding: 10px;
+        border: 2px #000 dashed;
+        min-height: 70px;
+        background-size: cover;
+        background-image: url('../img/eq.jpg') no-repeat #000FFF;
+        /* 100px*/
+    }
+
+    #mplayer {
+        width: 27px;
+        height: 27px;
+    }
+
+    #audioinfo {
+        font-size: large;
+    }
+
+    #selectletter {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        /* display: block;*/
+        text-align: center;
+        background: #fff;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #incorrect {
+        float: left;
+        display: block;
+        width: 100%;
+        /* opacity: 0.6; */
+        background: #fff;
+    }
+
+    .letterformat {
+        padding: 3px;
+        margin: 3px;
+        border: 4px solid #000;
+        /* opacity: 0.6; */
+        background: #000;
+    }
+
+    .letterformat:hover {
+        border: 4px solid #cb5d2c;
+        opacity: 1.0;
+    }
+
+    /* button */
+    #playagain {
+        visibility: hidden;
+        border: 2px solid #000;
+        color: #000;
+        font-size: large;
+        font-weight: bold;
+        font-family: 'Goudy Bookletter 1911', serif;
+        letter-spacing: 5px;
+        padding: 5px 10px 5px 10px;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 1.0;
+    }
+
+    .hang {
+        display: block;
+        font-weight: bold;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+
+
+    /* rules of the game div box */
+    #rules {
+        margin-top: 10px;
+        visibility: hidden;
+        background: rgba(255, 255, 255, 0.7);
+        border: 2px #000 dotted;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        height: 0px;
+        width: 0px;
+        box-sizing: border-box;
+    }
+
+    /* categories box div */
+    #categories {
+        margin-top: 10px;
+        visibility: hidden;
+        background: rgba(255, 255, 255, 0.7);
+        border: 2px #000 dotted;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        height: 0px;
+        width: 0px;
+        box-sizing: border-box;
+    }
+
+
+    .mybutton {
+        font-size: large;
+        font-weight: bold;
+        font-family: 'Goudy Bookletter 1911', serif;
+        letter-spacing: 5px;
+        padding: 5px 10px 5px 10px;
+        background: #fff;
+        color: #000;
+        border: 1px solid #000;
+        margin: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 1.0;
+    }
+
+    .mybutton:hover {
+        background: #ccc;
+        opacity: 0.5;
+    }
+
+    /* music button hover */
+
+    .mbtn {
+        opacity: 1.0;
+    }
+
+    .mbtn:hover {
+        opacity: 0.5;
+    }
+
+    /* for div titles */
+    .rulest {
+        font-size: x-large;
+        font-weight: bold;
+        letter-spacing: 5px;
+        padding: 5px;
+        color: #000;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    #closerules {
+        display: block;
+        margin: 10px auto 10px auto;
+
+    }
+
+
+
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" id="pagetop">
+<!--
+##########################################################
+Coding by Dave Guzda
+Game Assignment - [ H A N G M A N ] for WDDM 113/114
+>>> make swanky code! <<<
+Game Notes:
+===========
+Background Image : https://www.pexels.com/photo/backlit-cemetery-christianity-clouds-415571/
+Victory Image : http://weknowyourdreams.com/single/victory/victory-02
+EQ Image: https://www.lifewire.com/equalizers-and-digital-sound-processors-534573
+Emojis from : https://www.emojione.com/#gallery
+Music from : Josh Woodward >> https://www.joshwoodward.com/ and 
+Selected artists from https://freemusicarchive.org/ (list in game help file!)
+Music Icons from : https://iconmonstr.com (some were modified or re-created)
+API included : https://sweetalert2.github.io/#download Sweeeeeeeeeeeeeeetalert2
+###########################################################
+-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sweetalert2.css">
+    <link rel="stylesheet" href="css/rhangman.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica" rel="stylesheet">
+    <!-- API -->
+    <script src="js/sweetalert2.all.min.js"></script>
+    <title>[ H A N G M A N ]</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <span class="hang rulest">[ H A N G M A N ]</span>
+        </header>
+        <nav id="nav">
+            <input type="button" id="startbtn" value="Start Normal Game" class="mybutton centerthis">
+            <input type="button" id="rndgame" value="Start Random Game" class="mybutton centerthis">
+            <input type="button" id="rulesbtn" value="Rules of the Game" class="mybutton centerthis">
+            <input type="button" id="contbtn" value="Continue your Saved Game" class="mybutton centerthis">
+        </nav>
+        <!--
+    The rules
+    -->
+        <section id="rules">
+            <span class="rulest">The Rules of Hangman</span>
+            <br>&bull;Player will have 90 seconds to guess the the word on each level or will lose the game.
+            <br>&bull;Player can guess 10 letters before they are 'hung' and lose the game.
+            <br>&bull;If a player guesses the word before they are hung, they advance to a new level with a new word.
+            <br>&bull;There are six levels of gameplay and a continuous random mode.
+            <br>&bull;Random mode is capped at 100 levels.
+            <br>&bull;All words contain ONLY lower case letters, hyphens, periods etc. have ALL been removed
+            <br>&bull;Historical/Famous People may be living or dead
+            <br>&bull;Movies are all popular, based on top 100 of all time
+            <br>&bull;Bands are <em>mostly</em> Rock, Metal and Alt-Rock bands (no specific time frame)
+            <br>&bull;Play fair and eat your vegetables.
+            <br>&bull;By default the music and random track option are set to OFF.
+            <br>&bull;Random Mode : Continous mode of answers from any of the three categories.
+            <br>&bull;Game includes the incredible <a target="_blank" title="sweet alert API" href="https://www.jsdelivr.com/package/npm/sweetalert2">Sweetalert2 API found here</a>.
+            <br>&bull;In game music is from <a href="http://freemusicarchive.org" target="_blank" title="FMA">freemusicarchive.org</a> and direct from some artist's websites
+            <br><strong>Artists included:</strong> 23:59, Blue Wave Theory, D.A. Dad, fascinating earthbound objects, J Hacha de Zola, <a href="https://www.joshwoodward.com/" target="_blank" title="Josh Woodward">Josh Woodward</a>, Ketsa, <br>KieLoBot, KieLoKaz, King Imagine, Lobo Loco, Los Sundayers, Mabafu, N Dropkick, Nicola with N Dropkick, PEG and The Rejected and Split Phase! <i>Enjoy!</i>
+            <img src="img/close.svg" id="closerules">
+        </section>
+        <!-- 
+    Start Menu 
+    -->
+        <section id="categories">
+            <span class="rulest">Select your hangman category :</span>
+            <input type="button" id="movies" value="Movie Titles" class="mybutton centerthis">
+            <input type="button" id="historic" value="Historical People" class="mybutton centerthis">
+            <input type="button" id="bands" value="Rock Bands" class="mybutton centerthis">
+            <img src="img/close.svg" id="closecat">
+        </section>
+        <main id="mainscreen">
+            <!-- top row of main gameplay -->
+
+            <div id="toprow">
+
+                <div id="guessbox" class="rulest">
+                    <!-- placeholder for final winner image -->
+                    <img src="img/victory.jpg" id="victory">
+                    <p class="rulest"><span id="guessleft"></span></p>
+                    <p id="clue"></p>
+                    <p id="info"></p>
+                    <p id="guessing"></p>
+                    <p> <input type="button" id="playagain" value="Play Again" class="centerthis"></p>
+                </div>
+
+                <div id="selectletter">
+                    <img src="img/a.png" id="lettera" class="letterformat">
+                    <img src="img/b.png" id="letterb" class="letterformat">
+                    <img src="img/c.png" id="letterc" class="letterformat">
+                    <img src="img/d.png" id="letterd" class="letterformat">
+                    <img src="img/e.png" id="lettere" class="letterformat">
+                    <img src="img/f.png" id="letterf" class="letterformat">
+                    <img src="img/g.png" id="letterg" class="letterformat">
+                    <img src="img/h.png" id="letterh" class="letterformat">
+                    <img src="img/i.png" id="letteri" class="letterformat">
+                    <img src="img/j.png" id="letterj" class="letterformat">
+                    <img src="img/k.png" id="letterk" class="letterformat">
+                    <img src="img/l.png" id="letterl" class="letterformat">
+                    <img src="img/m.png" id="letterm" class="letterformat">
+                    <img src="img/n.png" id="lettern" class="letterformat">
+                    <img src="img/o.png" id="lettero" class="letterformat">
+                    <img src="img/p.png" id="letterp" class="letterformat">
+                    <img src="img/q.png" id="letterq" class="letterformat">
+                    <img src="img/r.png" id="letterr" class="letterformat">
+                    <img src="img/s.png" id="letters" class="letterformat">
+                    <img src="img/t.png" id="lettert" class="letterformat">
+                    <img src="img/u.png" id="letteru" class="letterformat">
+                    <img src="img/v.png" id="letterv" class="letterformat">
+                    <img src="img/w.png" id="letterw" class="letterformat">
+                    <img src="img/x.png" id="letterx" class="letterformat">
+                    <img src="img/y.png" id="lettery" class="letterformat">
+                    <img src="img/z.png" id="letterz" class="letterformat">
+                </div>
+            </div>
+            <!-- end of top row -->
+
+            <div id="bottomrow">
+                <div id="countdown" class="rulest">
+                    <p class="rulest" id="inguess"></p>
+                    <p>Time left to guess : <span class="rulest" id="timer"></span></p>
+                    <!-- music buttons and info -->
+                    <div id="musicrow"><img src="img/music.svg" alt="music player!" id="mplayer">&nbsp;&nbsp;<img class="mbtn" src="img/play.svg" alt="play / pause toggle" id="playbtn">
+                        <img class="mbtn" src="img/next.svg" alt="play next track" id="nextbtn">
+                        <img class="mbtn" src="img/nornd.svg" alt="random track toggle" id="rndbtn">
+                        <span id="audioinfo"></span></div>
+                </div>
+
+                <div id="flowerpower">
+                    <img src="img/flower10.png" id="gallows">
+                    <img src="img/flowerwin.png" id="chickendinner">
+                </div>
+            </div>
+            <!-- end of bottomrow -->
+        </main>
+    </div>
+
+    <!-- My SweetBox API -->
+    <script src="js/sweetalert2.all.min.js"></script>
+    <!-- JS CALL! -->
+    <script src="js/hangman.js"></script>
+
+</body>
+
+</html>
